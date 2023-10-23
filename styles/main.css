@@ -1,0 +1,99 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #5d5d5d;
+  margin-left: 18%;
+  margin-right: 18%;
+  color: #4f4f4f;
+}
+
+main {
+  background-color: #b0b0b0;
+  margin-top: 7vh;
+  padding: 2rem;
+}
+
+.about_section {
+  display: flex;
+}
+
+.about_section img {
+  width: 15.5rem;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.about_section section {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 1rem;
+}
+
+.titles {
+  margin-top: 1rem;
+  margin-left: 5rem;
+  font-size: 2.5rem;
+}
+
+.parenthesis {
+  margin-left: 3rem;
+  font-size: .8rem;
+}
+
+.skills_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 17rem;
+  font-size: 1.25rem;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  width: 20rem;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background-color: gray;
+  height: .5rem;
+  border-radius: .25rem;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: black;
+  margin-top: -0.2rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+.projects_section {
+  padding: 1rem 2rem;
+}
+
+.project_image {
+  width: 31rem;
+}
+
+.preview {
+  position: relative;
+}
+
+.project_info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: beige;
+  width: 20rem;
+  padding: 0.4rem .6rem;
+}
+
+.hidden {
+  display: none;
+}
