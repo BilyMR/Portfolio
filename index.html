@@ -8,6 +8,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <script src="index.js" defer></script>
   <title>Portfolio</title>
 </head>
 <body>
@@ -22,24 +24,14 @@
         </label>
         <span>SPA</span>
       </div>
-      <div class="theme_button">
-        <span>DARK</span>
-        <label class="switch">
-          <input type="checkbox">
-          <span class="slider round"></span>
-        </label>
-        <span>LIGHT</span>
-      </div>
     </div>
   </header>
   <main>
     <div class="about_section">
       <img src="images/Jirou_Horikoshi.jpg" alt="Temporary Me Photo">
       <section>
-        <h2 class="title_aboutme">About Me</h2>
-        <h2 class=" titulo_sobremi hidden">Sobre Mi</h2>
-        <p class="eng_me_section">Hi! My name is Bily, I'm a self-taught web developer. As of now, October 2023 I've been studying for over a year and specialized on JavaScript<br> Although I don' consider myself an expert, I consider myself to be a flexible and capable person on my knowledge about web developing. I intend to keep studying until my habilities become useful in all kind of situations.</p>
-        <p class="esp_me_section hidden">Hola, soy Bily, llevo estudiando desarrollo web por mi cuenta por aproximadamente un año (Octubre 2023) <br> Por el momento no me considero un experto en el tema pero si me considero una persona capaz y flexible con respecto a mi conocimiento en desarrollo web y JavaScript. Planeo seguir estudiando hasta que mis hablilidades sean utiles en todo tipo de situaciones</p>
+        <h2>About Me</h2>
+        <p >Hi! My name is Bily, I'm a self-taught web developer. As of right now, October 2023 I've been studying for over a year and specialized on JavaScript.<br> Although I don' consider myself an expert, I consider myself to be a flexible and capable person on my knowledge about web developing. I intend to keep studying until my habilities become useful in all kind of situations.</p>
       </section>
     </div>
     <h2 class="titles">Skills</h2>
@@ -74,26 +66,34 @@
         <div class="project_info">
           <h3>Library</h3>
           <p>One of the first projects/ tasks I made, implementing the use of factories and manipulation of the DOM</p>
+          <a href="https://github.com/BilyMR/Library" target="_blank">See Code</a>
         </div>
       </div>
-      <div class="preview">
-        <img src="images/calc.webp" alt="Calculator">
-        <div class="project_info">
+      <div class="preview_reves">
+        <div class="info_reves">
           <h3>Calculator</h3>
           <p>Another of my earliest tasks, using the fundamentals of JavaScript along with basic HTML</p>  
+          <a href="https://github.com/BilyMR/Calculator" target="_blank">See Code</a>
         </div>
+        <img src="images/calc.webp" class="project_image" alt="Calculator">
       </div>
       <div class="preview">
-        <img src="images/weather.webp" alt="Weather">
+        <img src="images/weather.webp" class="project_image" alt="Weather">
         <div class="project_info">
           <h3>Weather</h3>
           <p>Implementing the use of API's and async code in JavaScript</p>  
+          <a href="https://github.com/BilyMR/Weather" target="_blank">See Code</a>
         </div>
       </div>
+      <span style="font-size: .9rem;">Note: Although all these projects may not seem impresive right now, I guarantee that with a little more time I will build more complete and complex projects. Thank you for your understanding.</span>
     </div>
   </main>
   <footer>
-
+    <div class="contacts">
+      <span>Github: BilyMR</span>
+      <span>IG: ktb.mr1</span>
+      <span>Contact: mirandarvbily@gmail.com</span>
+    </div>
   </footer>
 </body>
 </html>
